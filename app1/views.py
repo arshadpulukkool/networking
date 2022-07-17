@@ -7,8 +7,12 @@ import socket
 def home(request):
     return render(request, 'home.html')
 
-def osystem(request):
-    a = socket.gethostname()
-    b = socket.gethostbyname(a)
-    print(a)
-    return render(request, 'result.html', {'a':a})
+def routing(request):
+    return render(request, 'routing.html')
+
+def pyth(request):
+    return render(request, 'python.html')
+
+def pythonex(request):
+    return render(request, 'pythonexamples.html')
+

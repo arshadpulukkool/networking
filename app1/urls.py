@@ -4,5 +4,7 @@ from . import views
 
 urlpatterns = [
     path('', views.home),
-    path('oss',views.osystem)
+    path('rout',views.routing),
+    path('pyt', views.pyth),
+    path('pytex',views.pythonex),
 ]
